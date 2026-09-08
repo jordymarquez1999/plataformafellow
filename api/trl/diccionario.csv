@@ -1,0 +1,74 @@
+Segmento TRL,Pregunta,Respuesta,Puntaje
+TRL 1-3,¿Tu proyecto es innovador? Marca todas las opciones que apliquen.,No presenta innovación clara ni diferenciación.,0.0
+TRL 1-3,¿Tu proyecto es innovador? Marca todas las opciones que apliquen.,"Tiene algún grado de innovación, pero aún no ha recibido validaciones externas.",3.0
+TRL 1-3,¿Tu proyecto es innovador? Marca todas las opciones que apliquen.,Ha recibido validaciones iniciales.,3.0
+TRL 1-3,¿Tu proyecto es innovador? Marca todas las opciones que apliquen.,Cuenta con documentación técnica en inglés.,2.0
+TRL 1-3,¿Tu proyecto es innovador? Marca todas las opciones que apliquen.,Tiene un equipo interdisciplinario.,2.0
+TRL 1-3,¿El problema que aborda tu proyecto está claramente identificado y justificado?,No hemos identificado claramente el problema ni tenemos justificación técnica.,0.0
+TRL 1-3,¿El problema que aborda tu proyecto está claramente identificado y justificado?,"Hemos identificado el problema, pero no hemos justificado su impacto.",10.0
+TRL 1-3,¿El problema que aborda tu proyecto está claramente identificado y justificado?,Hemos identificado el problema y justificado su impacto con datos.,15.0
+TRL 1-3,¿El problema que aborda tu proyecto está claramente identificado y justificado?,La presentación y justificación incluyen referencias en inglés.,5.0
+TRL 1-3,¿Cómo evaluarías la viabilidad técnica de tu proyecto?,No hemos demostrado viabilidad técnica ni contamos con metodología clara.,0.0
+TRL 1-3,¿Cómo evaluarías la viabilidad técnica de tu proyecto?,"Hemos planteado ideas generales de viabilidad técnica, pero sin pruebas.",7.5
+TRL 1-3,¿Cómo evaluarías la viabilidad técnica de tu proyecto?,Hemos realizado pruebas preliminares para validar la viabilidad técnica.,10.0
+TRL 1-3,¿Cómo evaluarías la viabilidad técnica de tu proyecto?,Nuestro equipo está compuesto por varias disciplinas y contamos con un docente asesor.,5.0
+TRL 1-3,¿Tu proyecto cuenta con respaldo de investigación previa? Marca todas las opciones que apliquen.,No hemos realizado investigación previa ni tenemos sustento teórico.,0.0
+TRL 1-3,¿Tu proyecto cuenta con respaldo de investigación previa? Marca todas las opciones que apliquen.,Contamos con una investigación inicial con fuentes limitadas.,10.0
+TRL 1-3,¿Tu proyecto cuenta con respaldo de investigación previa? Marca todas las opciones que apliquen.,Hemos consultado fuentes académicas y técnicas.,5.0
+TRL 1-3,¿Tu proyecto cuenta con respaldo de investigación previa? Marca todas las opciones que apliquen.,Algunas de nuestras fuentes incluyen documentos en inglés.,5.0
+TRL 1-3,¿Tu proyecto cuenta con respaldo de investigación previa? Marca todas las opciones que apliquen.,Nuestro equipo ha trabajado de forma multidisciplinaria en la investigación.,5.0
+TRL 1-3,¿Han realizado pruebas y validaciones iniciales?,No hemos realizado pruebas ni validaciones iniciales.,0.0
+TRL 1-3,¿Han realizado pruebas y validaciones iniciales?,Hemos hecho pruebas exploratorias sin resultados concluyentes.,7.5
+TRL 1-3,¿Han realizado pruebas y validaciones iniciales?,Hemos realizado pruebas con validación documentada.,10.0
+TRL 1-3,¿Han realizado pruebas y validaciones iniciales?,Nuestra validación incluye perspectiva técnica y académica con docentes involucrados.,5.0
+TRL 4-7,¿Cómo ha sido desarrollado el prototipo de tu proyecto?,No se ha construido prototipo o solo es una simulación sin integración de componentes.,0.0
+TRL 4-7,¿Cómo ha sido desarrollado el prototipo de tu proyecto?,"Se ha construido parcialmente o en simulación, sin integración completa de sus componentes.",5.0
+TRL 4-7,¿Cómo ha sido desarrollado el prototipo de tu proyecto?,El prototipo ha sido construido y es funcional en sus características básicas.,10.0
+TRL 4-7,¿Cómo ha sido desarrollado el prototipo de tu proyecto?,Cuenta con documentación técnica en inglés.,5.0
+TRL 4-7,¿Cómo ha sido desarrollado el prototipo de tu proyecto?,El equipo de desarrollo es interdisciplinario.,5.0
+TRL 4-7,¿Cómo ha sido desarrollado el prototipo de tu proyecto?,"El prototipo está completamente construido y funcional, con documentación clave en inglés y un equipo interdisciplinario.",25.0
+TRL 4-7,¿Qué pruebas de funcionamiento han sido realizadas en el prototipo?,"No se han realizado pruebas o han sido mínimas, sin protocolos definidos.",0.0
+TRL 4-7,¿Qué pruebas de funcionamiento han sido realizadas en el prototipo?,"Se han realizado pruebas iniciales, pero sin documentación técnica.",5.0
+TRL 4-7,¿Qué pruebas de funcionamiento han sido realizadas en el prototipo?,"Se han realizado pruebas en un entorno controlado con resultados parciales, pero sin validación completa.",10.0
+TRL 4-7,¿Qué pruebas de funcionamiento han sido realizadas en el prototipo?,"Se han realizado pruebas con protocolos estructurados, pero sin reporte detallado.",15.0
+TRL 4-7,¿Qué pruebas de funcionamiento han sido realizadas en el prototipo?,"Las pruebas han sido estructuradas con protocolos definidos, obteniendo resultados consistentes.",20.0
+TRL 4-7,¿El prototipo ha sido validado en un entorno relevante o similar al real?,"No se ha probado en un entorno relevante, solo en laboratorio sin considerar condiciones reales.",0.0
+TRL 4-7,¿El prototipo ha sido validado en un entorno relevante o similar al real?,"Ha sido probado en un entorno relevante, pero sin datos concluyentes sobre su desempeño.",10.0
+TRL 4-7,¿El prototipo ha sido validado en un entorno relevante o similar al real?,Ha sido probado en un entorno relevante con reporte de desempeño parcial.,15.0
+TRL 4-7,¿El prototipo ha sido validado en un entorno relevante o similar al real?,Ha sido validado en un entorno relevante con datos sólidos que respaldan su desempeño.,20.0
+TRL 4-7,¿Se han realizado iteraciones o mejoras en el prototipo después de las pruebas iniciales?,No se han realizado mejoras significativas después de la primera prueba.,0.0
+TRL 4-7,¿Se han realizado iteraciones o mejoras en el prototipo después de las pruebas iniciales?,"Se han realizado algunas iteraciones menores, pero sin cambios significativos en el diseño.",5.0
+TRL 4-7,¿Se han realizado iteraciones o mejoras en el prototipo después de las pruebas iniciales?,Se han realizado algunas iteraciones y mejoras en el diseño basadas en pruebas previas.,10.0
+TRL 4-7,¿Se han realizado iteraciones o mejoras en el prototipo después de las pruebas iniciales?,"Se han aplicado múltiples iteraciones con mejoras significativas en el diseño y funcionalidad, con asesoría externa.",12.0
+TRL 4-7,¿Se han realizado iteraciones o mejoras en el prototipo después de las pruebas iniciales?,"Se han aplicado múltiples iteraciones con mejoras significativas en el diseño y funcionalidad, con asesoría de un docente.",15.0
+TRL 4-7,¿El prototipo ha demostrado ser capaz de funcionar en condiciones cercanas al entorno real o simulado de manera efectiva?,No ha sido sometido a condiciones cercanas a las reales y su desempeño es incierto.,0.0
+TRL 4-7,¿El prototipo ha demostrado ser capaz de funcionar en condiciones cercanas al entorno real o simulado de manera efectiva?,"Ha demostrado cierta funcionalidad en condiciones controladas, pero sin replicación en entorno real.",5.0
+TRL 4-7,¿El prototipo ha demostrado ser capaz de funcionar en condiciones cercanas al entorno real o simulado de manera efectiva?,"Ha demostrado cierta funcionalidad en condiciones cercanas a las reales, con evidencia de ajustes.",10.0
+TRL 4-7,¿El prototipo ha demostrado ser capaz de funcionar en condiciones cercanas al entorno real o simulado de manera efectiva?,"Ha demostrado funcionar de manera estable en condiciones cercanas a las reales, con evidencia técnica parcial.",15.0
+TRL 4-7,¿El prototipo ha demostrado ser capaz de funcionar en condiciones cercanas al entorno real o simulado de manera efectiva?,"Ha demostrado funcionar de manera estable en condiciones cercanas a las reales, con evidencia técnica documentada.",20.0
+TRL 8-9,¿Cómo ha sido desarrollado el MVP de tu proyecto?,"El MVP aún tiene características incompletas o no integradas completamente. No cuenta con documentación en inglés, el equipo es monodisciplinario y sin docente asesor.",0.0
+TRL 8-9,¿Cómo ha sido desarrollado el MVP de tu proyecto?,"Se han construido partes del MVP, pero aún falta integrar algunos componentes clave.",5.0
+TRL 8-9,¿Cómo ha sido desarrollado el MVP de tu proyecto?,"El MVP está casi completo, con algunas mejoras pendientes antes de su lanzamiento oficial. Parte de la documentación está en inglés y el equipo es interdisciplinario.",15.0
+TRL 8-9,¿Cómo ha sido desarrollado el MVP de tu proyecto?,Contamos con documentación técnica estructurada en inglés.,5.0
+TRL 8-9,¿Cómo ha sido desarrollado el MVP de tu proyecto?,El equipo de desarrollo es multidisciplinario y cuenta con asesoría de expertos.,5.0
+TRL 8-9,¿Cómo ha sido desarrollado el MVP de tu proyecto?,"El MVP está completamente desarrollado y funcional, listo para su comercialización. La documentación clave está en inglés y el equipo es multidisciplinario.",25.0
+TRL 8-9,¿Qué pruebas de funcionamiento ha realizado tu MVP?,No se han realizado pruebas o solo han sido pruebas teóricas.,0.0
+TRL 8-9,¿Qué pruebas de funcionamiento ha realizado tu MVP?,"Ha sido probado en un entorno controlado, pero aún no ha demostrado un desempeño estable en condiciones reales. No hay documentación técnica estructurada en inglés.",5.0
+TRL 8-9,¿Qué pruebas de funcionamiento ha realizado tu MVP?,"Se han realizado pruebas en laboratorio con protocolos definidos, pero sin evaluación externa.",10.0
+TRL 8-9,¿Qué pruebas de funcionamiento ha realizado tu MVP?,"Ha sido probado en entornos reales con resultados parciales, pero requiere ajustes antes de su validación definitiva. Algunas evaluaciones técnicas se han documentado en inglés.",15.0
+TRL 8-9,¿Qué pruebas de funcionamiento ha realizado tu MVP?,"Ha demostrado un desempeño estable y validado en el entorno real, cumpliendo con los estándares del mercado. Se han presentado reportes técnicos en inglés y cuenta con un docente en el equipo.",20.0
+TRL 8-9,¿El MVP ha sido validado en un entorno relevante o similar al mercado real?,No se ha evaluado el potencial de escalabilidad o existen limitaciones técnicas significativas. No hay visión multidisciplinaria en la evaluación de expansión.,0.0
+TRL 8-9,¿El MVP ha sido validado en un entorno relevante o similar al mercado real?,"Se han realizado pruebas preliminares en un entorno relevante, pero sin análisis concluyente.",5.0
+TRL 8-9,¿El MVP ha sido validado en un entorno relevante o similar al mercado real?,"Se ha identificado el potencial de escalabilidad, pero aún requiere optimización para producción masiva. El equipo cuenta con al menos dos disciplinas involucradas.",10.0
+TRL 8-9,¿El MVP ha sido validado en un entorno relevante o similar al mercado real?,"Se han realizado pruebas en entornos similares al mercado, pero sin certificaciones o respaldo documental.",15.0
+TRL 8-9,¿El MVP ha sido validado en un entorno relevante o similar al mercado real?,Ha sido optimizado para su escalabilidad y tiene potencial para producción masiva o expansión a nuevos mercados. Ha sido evaluado desde diversas áreas del conocimiento.,20.0
+TRL 8-9,¿Existen iteraciones y mejoras después de las pruebas iniciales?,No se cuenta con un plan claro de comercialización o transferencia tecnológica. No se ha considerado la asesoría de un docente o experto en negocios.,0.0
+TRL 8-9,¿Existen iteraciones y mejoras después de las pruebas iniciales?,"Se han identificado mejoras necesarias, pero aún no se han implementado.",5.0
+TRL 8-9,¿Existen iteraciones y mejoras después de las pruebas iniciales?,"Existe un plan preliminar de comercialización o transferencia, aunque aún no se ha implementado. Cuenta con asesoría externa, pero sin docente formal en el equipo.",10.0
+TRL 8-9,¿Existen iteraciones y mejoras después de las pruebas iniciales?,Se han realizado ajustes y mejoras en el diseño del MVP con base en pruebas previas.,12.0
+TRL 8-9,¿Existen iteraciones y mejoras después de las pruebas iniciales?,El producto está en proceso de comercialización o transferencia tecnológica con un modelo de negocio validado. Cuenta con apoyo docente y asesoría especializada.,15.0
+TRL 8-9,¿El MVP ha demostrado ser capaz de operar en condiciones comerciales o reales de manera efectiva?,No se ha recopilado retroalimentación suficiente de los usuarios finales o los datos obtenidos son inconsistentes. No hay validación desde diversas perspectivas profesionales.,0.0
+TRL 8-9,¿El MVP ha demostrado ser capaz de operar en condiciones comerciales o reales de manera efectiva?,Se ha realizado una validación inicial con un grupo reducido de usuarios finales.,5.0
+TRL 8-9,¿El MVP ha demostrado ser capaz de operar en condiciones comerciales o reales de manera efectiva?,"Se ha recibido retroalimentación inicial de los usuarios finales, pero se requiere más validación para confirmar su éxito en el mercado. Hay aportes de distintas disciplinas, pero falta estructuración.",10.0
+TRL 8-9,¿El MVP ha demostrado ser capaz de operar en condiciones comerciales o reales de manera efectiva?,Se han realizado estudios de aceptación del mercado y pruebas piloto con clientes reales.,15.0
+TRL 8-9,¿El MVP ha demostrado ser capaz de operar en condiciones comerciales o reales de manera efectiva?,"Se ha obtenido retroalimentación positiva del mercado y los usuarios finales, con evidencia técnica de aceptación y demanda. Se han documentado los resultados en inglés y desde un enfoque interdisciplinario.",20.0

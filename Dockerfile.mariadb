@@ -1,0 +1,12 @@
+FROM mariadb:11.4
+
+# Variables por defecto (puedes sobrescribir con -e al ejecutar)
+ENV MARIADB_ROOT_PASSWORD=changeme \
+    MARIADB_DATABASE=fellowship \
+    MARIADB_USER=fellow_user \
+    MARIADB_PASSWORD=fellow_pass
+
+# Copia el esquema/base de datos inicial
+COPY init.sql /docker-entrypoint-initdb.d/01-init.sql
+
+EXPOSE 3306
