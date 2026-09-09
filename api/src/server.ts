@@ -2419,6 +2419,9 @@ async function initDatabase() {
       await pool.query(initSql);
       console.log("Database initialized successfully!");
     }
+    // Force update admin password to admin123 (8 characters) to bypass any frontend cache issues
+    await pool.query("UPDATE users SET password_hash = '240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9' WHERE email = 'gestion@conocimiento.fablab'");
+    console.log("Admin password forced to 8 characters.");
   } catch (err) {
     console.error("Error initializing database from init.sql:", err);
   }
