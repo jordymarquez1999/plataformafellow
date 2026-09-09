@@ -96,7 +96,7 @@ export default function LoginForm({ onSuccess, onClearPending, onNotRegistered }
   }
   function validatePassword(v: string) {
     if (!v) return "La contraseña es requerida";
-    if (v.length < 8) return "Mínimo 8 caracteres";
+    if (v.length < 6) return "Mínimo 6 caracteres";
     return;
   }
 
