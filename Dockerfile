@@ -36,6 +36,7 @@ COPY api/tsconfig.json ./tsconfig.json
 COPY api/src ./src
 COPY api/trl ./trl
 COPY api/.env.example ./.env.example
+COPY init.sql ./init.sql
 COPY --from=frontend /web/dist ./web-dist
 COPY --from=papers /papers/dist ./paper-dist
 RUN npm run build

@@ -2411,7 +2411,11 @@ async function initDatabase() {
     const [rows] = await pool.query("SHOW TABLES LIKE 'users'");
     if ((rows as any).length === 0) {
       console.log("Database empty. Running init.sql...");
-      const initSql = fs.readFileSync(path.join(__dirname, "../../init.sql"), "utf8");
+      let sqlPath = path.join(__dirname, "../../init.sql");
+      if (!fs.existsSync(sqlPath)) {
+        sqlPath = path.join(__dirname, "../init.sql");
+      }
+      const initSql = fs.readFileSync(sqlPath, "utf8");
       await pool.query(initSql);
       console.log("Database initialized successfully!");
     }
