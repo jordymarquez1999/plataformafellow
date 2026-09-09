@@ -1,4 +1,4 @@
-﻿-- Azure Database for MySQL: crea la BD desde el portal y ejecuta este script dentro de esa BD.
+-- Azure Database for MySQL: crea la BD desde el portal y ejecuta este script dentro de esa BD.
 
 -- Usuarios (admin/estudiante)
 CREATE TABLE IF NOT EXISTS users (
@@ -439,7 +439,7 @@ ON DUPLICATE KEY UPDATE
 -- Usuarios base (1 admin, 2 estudiantes)
 INSERT INTO users (id, role, email, name, password_hash)
 VALUES
-  ('11111111-1111-1111-1111-111111111111', 'admin', 'gestion@conocimiento.fablab', 'Admin', '85b7dc785cf83a33ffa9a3a01bc6920bc9fc0f45e39f1b4ea691aedae54502cf'),
+  ('11111111-1111-1111-1111-111111111111', 'admin', 'gestion@conocimiento.fablab', 'Admin', '8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92'),
   ('22222222-2222-2222-2222-222222222222', 'student', 'estudiante1@fellowship.test', 'Estudiante Uno', NULL),
   ('33333333-3333-3333-3333-333333333333', 'student', 'estudiante2@fellowship.test', 'Estudiante Dos', NULL)
 ON DUPLICATE KEY UPDATE name = VALUES(name), role = VALUES(role), password_hash = VALUES(password_hash);

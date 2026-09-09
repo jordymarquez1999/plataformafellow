@@ -2404,7 +2404,24 @@ app.get("*", (_req, res) => {
   sendAppShell(res);
 });
 
+import fs from "fs";
+
+async function initDatabase() {
+  try {
+    const [rows] = await pool.query("SHOW TABLES LIKE 'users'");
+    if ((rows as any).length === 0) {
+      console.log("Database empty. Running init.sql...");
+      const initSql = fs.readFileSync(path.join(__dirname, "../../init.sql"), "utf8");
+      await pool.query(initSql);
+      console.log("Database initialized successfully!");
+    }
+  } catch (err) {
+    console.error("Error initializing database from init.sql:", err);
+  }
+}
+
 async function startServer() {
+  await initDatabase();
   try {
     await ensureProjectsOdsColumn();
     await ensureGlobalTaskAssignments();

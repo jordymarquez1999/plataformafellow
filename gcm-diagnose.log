@@ -1,0 +1,257 @@
+﻿Diagnose log at 2026-09-08T23:11:08Z
+
+AppPath: C:\Program Files\Git\mingw64\bin\git-credential-manager.exe
+InstallDir: C:\Program Files\Git\mingw64\bin\
+Version: 2.6.1+786ab03440ddc82e807a97c0e540f5247e44cec6
+
+------------
+Diagnostic: Environment
+Skipped: False
+Success: True
+Exception: None
+Log:
+OSType: Windows
+OSVersion: 10.0 (build 19045)
+Reading environment variables... OK
+ Variables:
+BG_DATA_PREDISTORT_V010=C:\Esko\bg_data_predistort_v010
+BG_DATA_PDFIMPORT_V010=C:\Esko\bg_data_PDFImport_v010
+PUBLIC=C:\Users\Public
+BG_DATA_ITRAP_V010=C:\Esko\bg_data_itrap_v010
+ALLUSERSPROFILE=C:\ProgramData
+JETSKI_SAFECLIS_SOURCE=C:/Users/USER/.gemini/antigravity/bin/secplugins/src
+FLEXLM_BATCH=1
+LOGONSERVER=\\DESKTOP-8LUT0L0
+AGY_BROWSER_ACTIVE_PORT_FILE=C:\Users\USER\AppData\Roaming\Antigravity\DevToolsActivePort
+LOCALAPPDATA=C:\Users\USER\AppData\Local
+GIT_EXEC_PATH=C:/Program Files/Git/mingw64/libexec/git-core
+BG_DATA_BOOSTX_V010=C:\Esko\bg_data_boostx_v010
+BG_PROG_POWERTRAPPER_V010=C:\Esko\bg_prog_PowerTrapper_v010
+BG_PROG_WHITEUNDERPRINT_V010=C:\Esko\bg_prog_WhiteUnderprint_v010
+BG_PROG_STEPX_V010=C:\Esko\bg_prog_stepx_v010
+NVM_SYMLINK=C:\nvm4w\nodejs
+BG_DATA_SHUTTLE_V010=C:\Esko\bg_data_shuttle_v010
+TMPDIR=C:\Users\USER\AppData\Local\Temp
+JETSKI_APP_DATA_DIR=antigravity
+BG_DATA_SCREENX_V010=C:\Esko\bg_data_screenx_v010
+PROCESSOR_REVISION=9e0a
+NUMBER_OF_PROCESSORS=8
+ANTIGRAVITY_AGENT=1
+ZES_ENABLE_SYSMAN=1
+MSYSTEM=MINGW64
+AGY_BROWSER_WS_URL=ws://127.0.0.1:52513/devtools/browser/6d592268-74b8-4292-94ae-006db01af65a
+BG_PROG_CHECKX_V010=C:\Esko\bg_prog_checkx_v010
+ANTIGRAVITY_LS_ADDRESS=localhost:52595
+BG_PROG_CHANNELMAPPING_V010=C:\Esko\bg_prog_channelmapping_v010
+BG_PROG_LABELS_V010=C:\Esko\bg_prog_labels_v010
+BG_PROG_PDFIMPORT_V010=C:\Esko\bg_prog_PDFImport_v010
+PROCESSOR_ARCHITECTURE=x86
+CHROME_DEVTOOLS_MCP_JS=C:\Users\USER\AppData\Local\Programs\Antigravity\resources\app.asar.unpacked\node_modules\chrome-devtools-mcp\build\src\bin\chrome-devtools-mcp.js
+PROCESSOR_ARCHITEW6432=AMD64
+ANTIGRAVITY_LS_VERSION=hub-2.12.2
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL
+BG_PROG_STUDIOTOOLKITFORBOXES_V010=C:\Esko\bg_prog_studiotoolkitforboxes_v010
+BG_DATA_POWERTRAPPER_V010=C:\Esko\bg_data_PowerTrapper_v010
+BG_DATA_SYSTEM_V010=C:\Esko\bg_data_system_v010
+JAVA_HOME=C:\Program Files\Eclipse Adoptium\jdk-21.0.7.6-hotspot
+BG_PROG_SCREENX_V010=C:\Esko\bg_prog_screenx_v010
+CommonProgramW6432=C:\Program Files\Common Files
+ProgramFiles(x86)=C:\Program Files (x86)
+BG_PROG_STUDIODESIGNER_V010=C:\Esko\bg_prog_StudioDesigner_v010
+BG_PROG_VARIABLEDATA_V010=C:\Esko\bg_prog_variabledata_v010
+USERNAME=USER
+NVM_HOME=C:\Users\USER\AppData\Local\nvm
+BG_DATA_VIEWX_V010=C:\Esko\bg_data_viewx_v010
+BG_DATA_BARX_V010=C:\Esko\bg_data_barx_v010
+BG_PROG_DYNAMICMARKS_V010=C:\Esko\bg_prog_DynamicMarks_v010
+ProgramFiles=C:\Program Files (x86)
+CommonProgramFiles=C:\Program Files (x86)\Common Files
+BG_PROG_BARX_V010=C:\Esko\bg_prog_barx_v010
+TERM=xterm-256color
+SESSIONNAME=Console
+BG_PROG_EGSIS_V010=C:\Esko\bg_prog_egsis_v010
+BG_PROG_EPFEXPORT_V010=C:\Esko\bg_prog_epfexport_v010
+OS=Windows_NT
+PATH=C:/Program Files/Git/mingw64/libexec/git-core;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\USER\bin;C:/Users/USER/.gemini/antigravity/bin;C:\Users\USER\AppData\Roaming\Antigravity\bin;C:\Program Files\Eclipse Adoptium\jdk-21.0.7.6-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Users\USER\AppData\Local\Programs\Python\Python313\Scripts\pyinstaller.exe;C:\Program Files\dotnet\;C:\Users\USER\AppData\Local\nvm;C:\nvm4w\nodejs;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Esko\Artios\Common\Program\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\USER\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\USER\AppData\Local\Programs\Python\Python313\;C:\Users\USER\AppData\Local\Programs\Python\Launcher\;C:\Users\USER\AppData\Local\Microsoft\WindowsApps;C:\Users\USER\AppData\Roaming\npm;C:\Program Files\Eclipse Adoptium\jdk-21.0.7.6-hotspot\bin;C:\Users\USER\AppData\Local\Programs\Antigravity\bin;C:\Users\USER\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;C:\Users\USER\AppData\Local\Programs\Windsurf\bin;C:\Users\USER\AppData\Local\nvm;C:\nvm4w\nodejs;C:\Users\USER\AppData\Local\Unity\bin;C:\Users\USER\.dotnet\tools
+BG_DATA_DYNAMICMARKS_V010=C:\Esko\bg_data_DynamicMarks_v010
+OneDrive=C:\Users\USER\OneDrive - continental.edu.pe (1)
+PSModulePath=C:\Users\USER\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\PowerShell\Modules\
+OneDriveCommercial=C:\Users\USER\OneDrive - continental.edu.pe (1)
+BG_PROG_VIEWX_V010=C:\Esko\bg_prog_viewx_v010
+LC_CTYPE=C.UTF-8
+BG_PROG_TIFFEXPORT_V010=C:\Esko\bg_prog_TIFFExport_v010
+ANTIGRAVITY_TRAJECTORY_ID=8b6cdffb-1257-4652-b7b8-516defe06778
+BG_DATA_IMAGEX_V010=C:\Esko\bg_data_imagex_v010
+ANTIGRAVITY_PROJECT_ID=61b95f0a-06ed-4ac7-b029-e214fa88b3cc
+BG_DATA_DYNAMICVDP_V010=C:\Esko\bg_data_DynamicVDP_v010
+BG_DATA_WHITEUNDERPRINT_V010=C:\Esko\bg_data_WhiteUnderprint_v010
+COMPUTERNAME=DESKTOP-8LUT0L0
+BG_DATA_CHECKX_V010=C:\Esko\bg_data_checkx_v010
+BG_DATA_STUDIOTOOLKITFORBOXES_V010=C:\Esko\bg_data_studiotoolkitforboxes_v010
+BG_DATA_STEPX_V010=C:\Esko\bg_data_stepx_v010
+TEMP=C:\Users\USER\AppData\Local\Temp
+BG_PROG_STUDIOVIEWER_V010=C:\Esko\bg_prog_StudioViewer_v010
+BG_DATA_STUDIOVIEWER_V010=C:\Esko\bg_data_StudioViewer_v010
+ANTIGRAVITY_AGENTAPI_EXE=C:\Users\USER\AppData\Local\Programs\Antigravity\resources\bin\language_server.exe
+SystemRoot=C:\Windows
+ProgramW6432=C:\Program Files
+ComSpec=C:\Windows\system32\cmd.exe
+BG_PROG_COLORENGINEPLUGIN_V010=C:\Esko\bg_prog_ColorEnginePlugin_v010
+BG_DATA_LABELS_V010=C:\Esko\bg_data_labels_v010
+PLINK_PROTOCOL=ssh
+BG_PROG_POWERLAYOUTSTANDALONE_V010=C:\Esko\bg_prog_PowerLayoutStandalone_v010
+PROCESSOR_LEVEL=6
+ProgramData=C:\ProgramData
+BG_PROG_CLOUDCONNECTORAI_V010=C:\Esko\bg_prog_CloudConnectorAI_v010
+ANTIGRAVITY_CSRF_TOKEN=3d376248-5ca2-41a7-b925-1544d22011a0
+HOMEDRIVE=C:
+BG_PROG_PITSTOPAI_V010=C:\Esko\bg_prog_PitStopAI_v010
+BG_DATA_EGSIS_V010=C:\Esko\bg_data_egsis_v010
+BG_DATA_SEAMLESSX_V010=C:\Esko\bg_data_seamlessx_v010
+USERPROFILE=C:\Users\USER
+AI_AGENT=antigravity
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 158 Stepping 10, GenuineIntel
+BG_PROG_IMAGEX_V010=C:\Esko\bg_prog_imagex_v010
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+windir=C:\Windows
+FPS_BROWSER_USER_PROFILE_STRING=Default
+FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+TMP=C:\Users\USER\AppData\Local\Temp
+BG_DATA_POWERLAYOUTSTANDALONE_V010=C:\Esko\bg_data_PowerLayoutStandalone_v010
+BG_PROG_SHUTTLE_V010=C:\Esko\bg_prog_shuttle_v010
+APPDATA=C:\Users\USER\AppData\Roaming
+BG_PROG_TEXTRECOGNITIONAI_V010=C:\Esko\bg_prog_TextRecognitionAI_v010
+USERDOMAIN=DESKTOP-8LUT0L0
+BG_PROG_PREDISTORT_V010=C:\Esko\bg_prog_predistort_v010
+BG_PROG_DYNAMICVDP_V010=C:\Esko\bg_prog_DynamicVDP_v010
+SystemDrive=C:
+BG_PROG_BOOSTX_V010=C:\Esko\bg_prog_boostx_v010
+BG_PROG_STUDIOVISUALIZERPLUGIN_V010=C:\Esko\bg_prog_StudioVisualizerPlugin_v010
+BG_DATA_STUDIODESIGNER_V010=C:\Esko\bg_data_StudioDesigner_v010
+LM_LICENSE_FILE=@localhost
+USERDOMAIN_ROAMINGPROFILE=DESKTOP-8LUT0L0
+BG_PROG_SYSTEM_V010=C:\Esko\bg_prog_system_v010
+GIT_TRACE2_PARENT_SID=283ad38d-5142-4e7a-94f4-b76034f44aa6
+BG_PROG_ITRAP_V010=C:\Esko\bg_prog_itrap_v010
+HOMEPATH=\Users\USER
+BG_DATA_STUDIOVISUALIZERPLUGIN_V010=C:\Esko\bg_data_StudioVisualizerPlugin_v010
+BG_CPU=ix86
+ANTIGRAVITY_SOURCE_METADATA={"tool":{"conversationId":"da07f716-5ebe-461e-9452-b6badcbefad9","stepIndex":119,"toolCall":{"id":"call_658147","name":"run_command","argumentsJson":"{\"CommandLine\":\"git credential-manager diagnose\",\"Cwd\":\"C:\\\\Users\\\\USER\\\\Documents\\\\APPS\\\\plataformafellow\",\"WaitMsBeforeAsync\":2000,\"toolAction\":\"Running command\",\"toolSummary\":\"Check git credential manager\"}","thinkingSignature":"ErYKCrMKARFNMg8Hd5qG0AkyaNIZAxVdpyEepg6nqUyxAECjphehmMtLAoBej7PZwy2IqMPJ8HD/02dD3DCMMHDzzUvOoBWpZ1Oziud94Gt+ugmQgPca3ogHrdMv8T2lJdepjOmyBIsAcDG3UF1JLK0kpRxprADs0a+yt0UMT7ct8+5zHy37ls1gBHKFdVLswTw3uBnF3oe07USmxfoomNqe3RE6rHEMeA1vPQ23Up87jHtw7YxAvKTo8Qof6mzffiNv4OBeAWgq4zikVCe/CLTtKky2Fl2ml9q34NsqHh6f4Gtwxg76DdXA0tluR1F+aUA4XBr47V3TNpKmDohZZveZ9SbfNVGInL2TPUtMEq0xh6wuhUSbZ5wa6v1351wV0XmvSUhzPX+vtXkInvFz7F9taYCpmuU8D7vTB8tHF9v+dV7KiyxAHHQEbeEKlg2aoZHOhi/7hy7hM8CyCs/UbFxtVd6EfJYb3fUu6wkIkCsz1EogtPgxK00owfwkZlsi/t+ECgyJBJJMo3VuUrsvmDufoYulfgXZf8N59XzYYkbfPpPiIMoDH2/2Rk4xQZobHAalb1T82ZGfizkjCY5vr4birMWZ/gD2vjvbwDjViQ2e6Twnv2vkjMXmsdjjvYSWrfk5b6CdJ67Ud/0582fIgLcA4dEYlTOJhtabVKvxEf2iOwo16X9JPGojAYm7WdRn/MhcMUWZP3ypZs2Tmz4R0h7WW5Gmb4MhTYVon8tGFIejZICnrf98n136XsrdpX+pyYmbUIrVyroPe0HF744xNG+U/53Xqc/PSFKjc/64cokfDsIE3hEAnt0/kUhySXDNTbR0EDG5uMki/FnxawhpVKb1ShvWq/a0ul/Aw4/CoK0QlVwqMZ6UNPkea8J6t9RUq21IJZqs4QvJPQvMQmUuoYQACqEixwCVU1uP9I4Vl3dkhHgM4LE+lEyt7URQfHSX1pq24UMRZIFPlhwoSluN3+FId2HHhItdzi9YS/anRSRVCD08+Z3yNax3mobQ2pLj6M9zDtusDqFN5+ICJyJY708DcPCOAmoirrS/O9hd3OEGZb9ylvHNyzS8SMrYle1CZSoxFes/PD44O7hlC6DFGf1BH4y4TkrfZ+uGmBTbP1HnSbVWVEKjut17k5ZZkVpz2A9AcWiW+BCkm+D9iVL+Ad3uOWBHSl76PdTWW0aZUumh4HRkUcqvSd1thxUOtqSGDysNsCSJoSYTkkVY10woVtk7L4JE1HerIyFswhq1T3DUa0XWKwGB6PQ2KFnVjCmy2c4aOpdDWTvQOpMy17q3VMb/4OHvqkkdcz91AoVcFSTu1RTV5ykkYPhIqEHwvMCIYpAOWhHCgcoeXsu6UVxgwLix2XzRFD2zFR1vp/HSXimW/FTGCWVEAsotZ8u/pY72N40iXZql+aFcpAnNNjovHVobx30Am7XilRjSewUXMtOfT/YKywiLv4OFIXDxjWRyQODSzaeI1j698IwW+FgbNpKVgI4QytyIj2PzODOnjH/izRFm5bTHaTWs6oCYNubB23rjOTiNClHOM1tEZYCIrA6ua/MoZxutI00/lERsTvcAKxA9TndoMarSKXDm9tkOtkA/mvO03tI7CrTo04bx6cTWD/e5ejphkQsoOgf7I7Tbh15ok0MmedweU1EFsD2hjRlaOPhvxB8vqb3/RT+VRfg1tSxMR+8LPc3osDyW0mXip/hujQ+9m7XRBXsnewx5YAcojvUJ7brTsN0cKgoe6PwKt/I6/GVJXhE9aRxp0GmIqANRwHvzpT4="}}}
+COLORTERM=truecolor
+HOME=C:\Users\USER
+BG_PROG_SEAMLESSX_V010=C:\Esko\bg_prog_seamlessx_v010
+DriverData=C:\Windows\System32\Drivers\DriverData
+BG_DATA_LOCALLICMAN_V010=C:\Esko\bg_data_locallicman_v010
+BG_DATA_VARIABLEDATA_V010=C:\Esko\bg_data_variabledata_v010
+BG_DATA_EPFEXPORT_V010=C:\Esko\bg_data_epfexport_v010
+BG_DATA_TIFFEXPORT_V010=C:\Esko\bg_data_TIFFExport_v010
+BG_PROG_HASPINTERFACE_V010=C:\Esko\bg_prog_haspinterface_v010
+ANTIGRAVITY_CONVERSATION_ID=da07f716-5ebe-461e-9452-b6badcbefad9
+BG_PROG_LOCALLICMAN_V010=C:\Esko\bg_prog_locallicman_v010
+
+
+------------
+Diagnostic: File system
+Skipped: False
+Success: True
+Exception: None
+Log:
+Temporary directory is 'C:\Users\USER\AppData\Local\Temp\'...
+Checking basic file I/O...
+Writing to temporary file 'C:\Users\USER\AppData\Local\Temp\87ab470cb9be38c504a4551e'... OK
+Reading from temporary file 'C:\Users\USER\AppData\Local\Temp\87ab470cb9be38c504a4551e'... OK
+Deleting temporary file 'C:\Users\USER\AppData\Local\Temp\87ab470cb9be38c504a4551e'... OK
+Testing IFileSystem instance...
+UserHomePath: C:\Users\USER
+UserDataDirectoryPath: C:\Users\USER\.gcm
+GetCurrentDirectory(): C:\Users\USER\Documents\APPS\plataformafellow
+
+------------
+Diagnostic: Networking
+Skipped: False
+Success: True
+Exception: None
+Log:
+Checking networking and HTTP stack...
+Creating HTTP client... OK
+IsNetworkAvailable: True
+Sending HEAD request to http://example.com...Sending HEAD request to https://example.com... OK
+ OK
+Acquiring free TCP port... OK
+Testing local HTTP loopback connections...
+Creating new HTTP listener for http://localhost:53920/... OK
+Waiting for loopback connection... OK
+Writing response... OK
+Waiting for response data... OK
+Loopback connection data OK
+
+------------
+Diagnostic: Git
+Skipped: False
+Success: True
+Exception: None
+Log:
+Getting Git version... OK
+Git version is '2.49.0.windows.1'
+Locating current repository...Git repository at 'C:/Users/USER/Documents/APPS/plataformafellow/.git'
+ OK
+Listing all Git configuration... OK
+Git configuration:
+file:C:/Program Files/Git/etc/gitconfig	diff.astextplain.textconv=astextplain
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.process=git-lfs filter-process
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.required=true
+file:C:/Program Files/Git/etc/gitconfig	http.sslbackend=schannel
+file:C:/Program Files/Git/etc/gitconfig	core.autocrlf=true
+file:C:/Program Files/Git/etc/gitconfig	core.fscache=true
+file:C:/Program Files/Git/etc/gitconfig	core.symlinks=false
+file:C:/Program Files/Git/etc/gitconfig	pull.rebase=false
+file:C:/Program Files/Git/etc/gitconfig	credential.helper=manager
+file:C:/Program Files/Git/etc/gitconfig	credential.https://dev.azure.com.usehttppath=true
+file:C:/Program Files/Git/etc/gitconfig	init.defaultbranch=master
+file:.git/config	core.repositoryformatversion=0
+file:.git/config	core.filemode=false
+file:.git/config	core.bare=false
+file:.git/config	core.logallrefupdates=true
+file:.git/config	core.symlinks=false
+file:.git/config	core.ignorecase=true
+file:.git/config	user.email=dev@example.com
+file:.git/config	user.name=Developer
+
+
+------------
+Diagnostic: Credential storage
+Skipped: False
+Success: True
+Exception: None
+Log:
+ICredentialStore instance is of type: CredentialStore
+Writing test credential... OK
+Reading test credential... OK
+Deleting test credential... OK
+
+------------
+Diagnostic: Microsoft authentication (AAD/MSA)
+Skipped: False
+Success: True
+Exception: None
+Log:
+Broker is not enabled.
+Flow type is: Auto
+Gathering MSAL token cache data... OK
+CacheDirectory: C:\Users\USER\AppData\Local\.IdentityService
+CacheFileName: msal.cache
+CacheFilePath: C:\Users\USER\AppData\Local\.IdentityService\msal.cache
+Creating cache helper... OK
+Verifying MSAL token cache persistence... OK
+
+------------
+Diagnostic: GitHub API
+Skipped: False
+Success: True
+Exception: None
+Log:
+Using 'https://github.com/' as API target.
+Querying '/meta' endpoint... OK
+
