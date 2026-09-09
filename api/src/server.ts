@@ -617,6 +617,15 @@ app.post("/auth/register", async (req, res) => {
   }
 });
 
+app.get("/api/debug", async (req, res) => {
+  try {
+    const [rows] = await pool.query("SHOW TABLES");
+    res.json({ status: "connected", tables: rows });
+  } catch (err: any) {
+    res.json({ status: "error", error: err.message, code: err.code });
+  }
+});
+
 app.post("/auth/login", async (req, res) => {
   const { email, password } = req.body || {};
   if (!email) return res.status(400).json({ error: "email_required" });
@@ -641,9 +650,9 @@ app.post("/auth/login", async (req, res) => {
       return res.status(404).json({ error: "user_not_registered" });
     }
     res.json(payload);
-  } catch (err) {
+  } catch (err: any) {
     console.error(err);
-    res.status(500).json({ error: "db_error" });
+    res.status(500).json({ error: "db_error: " + err.message });
   }
 });
 
