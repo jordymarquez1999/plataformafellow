@@ -2434,8 +2434,8 @@ async function initDatabase() {
     
     // Create test project for student preview
     await pool.query(`
-      INSERT IGNORE INTO projects (id, title, category, target_audience, description, invite_code)
-      VALUES ('test-proj-1', 'Proyecto de Prueba', 'technology', 'general', 'Un proyecto para probar la vista de estudiante', 'PRUEBA123');
+      INSERT IGNORE INTO projects (id, student_id, title, description, invite_code)
+      VALUES ('test-proj-1', '22222222-2222-2222-2222-222222222222', 'Proyecto de Prueba', 'Un proyecto para probar la vista de estudiante', 'PRUEBA123');
     `);
     await pool.query(`
       INSERT IGNORE INTO project_members (project_id, user_id, role)
