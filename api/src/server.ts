@@ -2431,6 +2431,17 @@ async function initDatabase() {
     // Force update admin password to admin123 (8 characters) to bypass any frontend cache issues
     await pool.query("UPDATE users SET password_hash = '240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9' WHERE email = 'gestion@conocimiento.fablab'");
     console.log("Admin password forced to 8 characters.");
+    
+    // Create test project for student preview
+    await pool.query(`
+      INSERT IGNORE INTO projects (id, title, category, target_audience, description, invite_code)
+      VALUES ('test-proj-1', 'Proyecto de Prueba', 'technology', 'general', 'Un proyecto para probar la vista de estudiante', 'PRUEBA123');
+    `);
+    await pool.query(`
+      INSERT IGNORE INTO project_members (project_id, user_id, role)
+      VALUES ('test-proj-1', '22222222-2222-2222-2222-222222222222', 'owner');
+    `);
+    console.log("Test project for student created.");
   } catch (err) {
     console.error("Error initializing database from init.sql:", err);
   }
