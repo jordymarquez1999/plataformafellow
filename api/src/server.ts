@@ -626,6 +626,22 @@ app.get("/api/debug", async (req, res) => {
   }
 });
 
+app.get("/api/seed", async (req, res) => {
+  try {
+    await pool.query(`
+      INSERT IGNORE INTO projects (id, student_id, title, description, invite_code)
+      VALUES ('test-proj-1', '22222222-2222-2222-2222-222222222222', 'Proyecto de Prueba', 'Un proyecto para probar la vista de estudiante', 'PRUEBA123');
+    `);
+    await pool.query(`
+      INSERT IGNORE INTO project_members (project_id, user_id, role)
+      VALUES ('test-proj-1', '22222222-2222-2222-2222-222222222222', 'owner');
+    `);
+    res.json({ success: true, message: "Test project for student created!" });
+  } catch (err: any) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
 app.post("/auth/login", async (req, res) => {
   const { email, password } = req.body || {};
   if (!email) return res.status(400).json({ error: "email_required" });
